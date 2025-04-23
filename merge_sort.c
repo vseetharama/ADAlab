@@ -52,6 +52,10 @@ a[i]=rand()%10000;
 }
 clock_t start=clock();
 mSort(a,0,n-1);
+ for(int i=0;i<5;i++)
+{
+printf("%d\t",a[i]);
+}
 clock_t end=clock();
 double time_taken=((double)(end-start))/CLOCKS_PER_SEC;
 printf("The time taken for sorting :%f seconds\n",time_taken);
