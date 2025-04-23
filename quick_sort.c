@@ -3,7 +3,7 @@
 #include<time.h>
 int part(int a[],int l,int h){
 int p=a[l];
-int i=l;
+int i=l+1;
 int j=h;
 int temp;
 
