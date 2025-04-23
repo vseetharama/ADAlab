@@ -32,7 +32,7 @@ minwt=w[j][k];
 }
 }
 }
-tota+=minwt;
+totaicost+=minwt;
 visited[ev]=1;
 printf("%d---->%d cost :%d \n",sv,ev,minwt);
 }
