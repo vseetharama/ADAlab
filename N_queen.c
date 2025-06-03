@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 #define MAX 50
 int can_place(int c[],int r)
@@ -54,5 +53,4 @@ int n;
 printf("\nEnter the no. of queens:");
 scanf("%d",&n);
 n_queens(n);
-getch();
 }
